@@ -1,10 +1,37 @@
 # Museum Landing Page
 
-A landing page for a museum, designed according to [Figma design](https://www.figma.com/file/cRBCqE06cDrY3s4jX7h3iY/%D0%9D%D0%90%D0%9C%D0%A3-(Edit)?node-id=0%3A1). The design supports various screen sizes, including desktop, tablet, and mobile. The page uses BEM and SCSS for styling and integrates specific font styles.
+## Introduction
 
-## Project Description
+Welcome to the **Museum Landing Page** project, according to [Figma design](https://www.figma.com/file/cRBCqE06cDrY3s4jX7h3iY/%D0%9D%D0%90%D0%9C%D0%A3-(Edit)?node-id=0%3A1). This is a single-page website designed to showcase various aspects of a museum, including its exhibitions, events, and contact details. The landing page is crafted to offer an engaging and informative experience for visitors, using modern web technologies and adhering to design specifications.
 
-This project involves creating a landing page for a museum with several distinct sections. It includes a header with a hamburger menu, multiple content blocks, a gallery slider, and a footer. The design is responsive, and the page adapts to different screen sizes based on the provided Figma design.
+### Key Features
+
+- **Responsive Design**: The page is optimized for multiple screen sizes, including desktop (1280px), tablet (640px), and mobile (>320px).
+- **Header with Hamburger Menu**: Provides a navigable interface that adapts to different screen sizes.
+- **Exhibitions and Events Sections**: Features blocks for current exhibitions and events, with interactive elements and detailed information.
+- **Gallery Slider**: Showcases images of exhibits and museum highlights with a smooth, interactive slider.
+- **Subscription Block**: Allows visitors to sign up for updates and newsletters.
+- **Footer**: Contains links to social media, contact information, and additional resources.
+
+The project leverages technologies such as HTML5, CSS3, Sass, JavaScript (ES6), and Parcel for building and optimizing the website. The design and implementation follow the [Figma design](https://www.figma.com/file/cRBCqE06cDrY3s4jX7h3iY/%D0%9D%D0%90%D0%9C%D0%A3-(Edit)?node-id=0%3A1) and utilize fonts [IBM Plex Sans](https://fonts.google.com/specimen/IBM+Plex+Sans?query=ibm) and [Montserrat](https://fonts.google.com/specimen/Montserrat?query=mon).
+
+## Challenges
+
+As this was my first experience with creating a comprehensive landing page for a museum, several challenges emerged throughout the development process. One notable challenge was implementing a fully responsive design that accurately reflects the Figma mockups.
+
+### Key Challenges:
+
+1. **Responsive Design Complexity**: Ensuring the page looked and functioned well across various devices required meticulous attention to detail. Adapting the design to fit the specified screen sizes (desktop, tablet, and mobile) involved extensive testing and fine-tuning of CSS styles.
+
+2. **Hamburger Menu Implementation**: Integrating a hamburger menu that worked seamlessly across different screen sizes posed some technical difficulties. Ensuring that the menu was both functional and aesthetically pleasing required implementing JavaScript for interactivity and CSS for styling.
+
+3. **Gallery Slider Functionality**: Implementing a smooth and interactive gallery slider was challenging. The slider needed to be both performant and visually appealing, which involved using JavaScript and CSS to achieve the desired user experience.
+
+4. **Form Validation and Submission**: Ensuring that forms were user-friendly and validated correctly was another hurdle. The forms needed to handle various input types and provide clear feedback to users. Implementing smooth scroll and ensuring forms did not produce errors on submission required thorough testing and debugging.
+
+5. **Browser Compatibility**: Testing and ensuring compatibility across different browsers and devices was time-consuming. Each browser had its quirks, which required specific adjustments to ensure a consistent experience for all users.
+
+Despite these challenges, overcoming them significantly contributed to my growth as a developer. The experience enhanced my skills in responsive design, JavaScript interactions, and cross-browser compatibility, and it provided valuable insights into the practical aspects of web development.
 
 ## Technical Requirements
 
