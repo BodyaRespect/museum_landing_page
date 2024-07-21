@@ -1,3 +1,12 @@
-body {
-  margin: 0;
-}
+@import "utils";
+@import "./blocks/header";
+@import "./blocks/art-museum";
+@import "./blocks/icon";
+@import "./blocks/page";
+@import "./blocks/menu";
+@import "./blocks/title";
+@import "./blocks/events";
+@import "./blocks/lecture";
+@import "./blocks/gallery";
+@import "./blocks/subscribe";
+@import "./blocks/footer";
