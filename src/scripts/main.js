@@ -18,3 +18,13 @@ function changeSlide(index) {
     slides[index].style.display = 'block';
   }
 }
+
+document.addEventListener("DOMContentLoaded", function() {
+  const subscribeForm = document.getElementById("subscribeForm");
+  const subscribeButton = document.getElementById("subscribeButton");
+
+  subscribeButton.addEventListener("click", function(event) {
+    event.preventDefault();
+    subscribeForm.reset();
+  });
+});
